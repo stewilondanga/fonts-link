@@ -64,7 +64,8 @@ h5 {
   color: #eee;
 }
 
-/*@media screen and (min-width: 40rem) {
+@media screen and (min-width: 40rem) {
+
   code,
   h5 {
     font-size: 2rem;
@@ -72,7 +73,7 @@ h5 {
   }
 }
 
-code {
+/*code {
   background: #111;
   display: block;
 }
