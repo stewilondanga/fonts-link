@@ -97,11 +97,11 @@ h5 a:hover {
 }
 
 /*   The magic happens in font-variation-settings: change the 0 on line 75 to anything between 0 & 999 to make the weight of the heading transform */
-/*h1 {
-  font-variation-settings: "wght" 350, "ital" 0;
+h1 {
+  font-variation-settings: "wght"350, "ital"0;
 }
 
-
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
