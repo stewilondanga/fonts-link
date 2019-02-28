@@ -2,6 +2,17 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 2rem;
+  font-family: "FF Meta VF";
+  background: #eee;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -26,16 +37,6 @@ html {
 }
 
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 0 2rem;
-  font-family: "FF Meta VF";
-  background: #eee;
-}
 @media screen and (min-width: 40rem) {
   body {
     padding: 0 4rem;
