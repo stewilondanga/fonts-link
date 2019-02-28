@@ -82,11 +82,12 @@ code span {
   color: yellow;
 }
 
-/*h5 {
+h5 {
   background: #eee;
   color: cornflowerblue;
 }
-h5 a {
+
+/*h5 a {
   color: inherit;
 }
 h5 a:hover {
