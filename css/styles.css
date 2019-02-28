@@ -73,11 +73,12 @@ h5 {
   }
 }
 
-/*code {
+code {
   background: #111;
   display: block;
 }
-code span {
+
+/*code span {
   color: yellow;
 }
 
