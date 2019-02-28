@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,88 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 2rem;
+  font-family: "FF Meta VF";
+  background: #eee;
+}
+@media screen and (min-width: 40rem) {
+  body {
+    padding: 0 4rem;
+  }
+}
+
+h1, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  line-height: 1.2;
+  transition: all 1s ease;
+  padding-top: 4rem;
+}
+@media screen and (min-width: 40rem) {
+  h1 {
+    font-size: 8rem;
+    margin-bottom: 6rem;
+  }
+}
+
+code,
+h5 {
+  display: inline-block;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.8;
+  padding: 6px;
+  color: #eee;
+}
+@media screen and (min-width: 40rem) {
+  code,
+  h5 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+code {
+  background: #111;
+  display: block;
+}
+code span {
+  color: yellow;
+}
+
+h5 {
+  background: #eee;
+  color: cornflowerblue;
+}
+h5 a {
+  color: inherit;
+}
+h5 a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/*   The magic happens in font-variation-settings: change the 0 on line 75 to anything between 0 & 999 to make the weight of the heading transform */
+/*h1 {
+  font-variation-settings: "wght" 350, "ital" 0;
+}
+
 
 .containers {
   width: 520px;
