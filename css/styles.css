@@ -46,14 +46,14 @@ h1 {
   padding-top: 4rem;
 }
 
-/*@media screen and (min-width: 40rem) {
+@media screen and (min-width: 40rem) {
   h1 {
     font-size: 8rem;
     margin-bottom: 6rem;
   }
 }
 
-code,
+/*code,
 h5 {
   display: inline-block;
   font-family: monaco, Consolas, "Lucida Console", monospace;
