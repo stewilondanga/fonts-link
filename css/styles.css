@@ -87,10 +87,11 @@ h5 {
   color: cornflowerblue;
 }
 
-/*h5 a {
+h5 a {
   color: inherit;
 }
-h5 a:hover {
+
+/*h5 a:hover {
   opacity: 0.8;
   text-decoration: none;
 }
